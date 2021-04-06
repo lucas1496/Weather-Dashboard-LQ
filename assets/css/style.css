@@ -1,0 +1,30 @@
+/* No list style for UL */
+ul {
+    list-style: none;
+
+}
+/* Add bottom border, text-align, and padding for LI items */
+li {
+    border-bottom: 1px solid ivory;
+    text-align: left;
+    padding-left: 10px;
+}
+/* Setting font size for weather card titles  */
+.card-title {
+    font-size: 20px;
+}
+/* Image sizing  */
+img {
+    width: 100px;
+    height: 100px;
+}
+/* Styling and color for 5-day forecast cards */
+.fiveDayColor {
+    padding: 20px;
+    background-color: #1E90FF;
+    color: white;
+    float: left;
+    margin: 10px;
+    border: 1px solid lightgray;
+
+}
