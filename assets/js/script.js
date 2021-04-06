@@ -6,7 +6,6 @@ var apiKey = "dc21aa535a24b203b60c6e7c599670a5";
 for (var i = 0; i < localStorage.length; i++) {
 
     var city = localStorage.getItem(i);
-    // console.log(localStorage.getItem("City"));
     var cityName = $(".list-group").addClass("list-group-item");
 
     cityName.append("<li>" + city + "</li>");
